@@ -26,18 +26,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="#">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-    <script src="https://malsup.github.io/jquery.form.js"></script> 
- 
-    <script> 
-        // wait for the DOM to be loaded 
-        $(document).ready(function() { 
-            // bind 'myForm' and provide a simple callback function 
-            $('#myForm').ajaxForm(function() { 
-                alert("Thank you for your comment!"); 
-            }); 
-        }); 
-    </script> 
+	
 </head>
 <body>
 <!-- Begin Hero Bg -->
@@ -463,7 +452,7 @@
 						If you have questions about our organiaztion, don't hesitate to send us your message. This is a real working contact form, test it!
 					</p>
 				</div>
-				<form id="contact" name="contact" method="post" class="text-left">
+				<form id="contact" name="contact" method="post" class="text-left" action="process.php">
 					<fieldset>
 						<div class="row">
 							<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s">

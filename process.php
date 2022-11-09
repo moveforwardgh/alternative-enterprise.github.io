@@ -1,6 +1,6 @@
 <?php
  
-    $to = "wowthemesnet@gmail.com"; 
+    $to = "diegogalvalisi@gmail.com"; 
     $from = $_REQUEST['email']; 
     $name = $_REQUEST['name']; 
     $headers = "From: $from"; 
