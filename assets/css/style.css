@@ -628,13 +628,13 @@ label {
 	padding:20px 25px;
 	height:65px;
 }
-#contact label {
+#my-form label {
 	text-transform:uppercase;
 	font-weight:300;
 	 letter-spacing:3px;
 	 font-size:13px;
 }
-#contact input,#contact select,#contact textarea {
+#my-form input,#my-form select,#my-form textarea {
 	font-family:inherit;
 	font-size:inherit;
 	line-height:inherit;
@@ -644,11 +644,11 @@ label {
 	background-color:#fff;
 	border:0;
 }
-#contact input,#contact select {
+#my-form input,#my-form select {
 		height:40px;
 	margin-bottom:0px;
 }
-#contact input#submit {
+#my-form input#my-form-button {
 	width:auto;
 	margin-top:20px;
 	background-color:rgba(0,0,0,0.3);
@@ -660,7 +660,7 @@ label {
 	letter-spacing:3px;
 	font-size:14px;
 }
-#contact textarea {
+#my-form textarea {
 	height:180px;
 }
 .required {
