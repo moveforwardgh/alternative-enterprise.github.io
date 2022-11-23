@@ -61,7 +61,7 @@ ul,ol {
 blockquote {
 	padding-top:0;
 	padding-bottom:0;
-	border-color:#eb3400;
+	border-color:#1ABC9C;
 }
 blockquote small {
 	color:inherit;
@@ -122,7 +122,7 @@ img {
 	outline:none;
 }
 .btn-link {
-	color:#eb3400;
+	color:#1abc9c;
 }
 .btn-link:hover,.btn-link:focus {
 	color:#16a085;
@@ -168,8 +168,8 @@ img {
 	color:#0299b8;
 }
 .btn-warning,.label-warning,.alert-warning {
-	background-color:#eb3400;
-	border-color:#eb3400;
+	background-color:#e67e22;
+	border-color:#e67e22;
 }
 .btn-warning:hover,.btn-warning:focus {
 	background-color:#d35400;
@@ -208,24 +208,24 @@ img {
 	background-color:#ecf0f1;
 }
 .nav-tabs>li>a:hover,.nav-tabs>li>a:focus {
-	color:#eb3400;
+	color:#1abc9c;
 	background:transparent;
 }
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus {
 	background:transparent;
 	border:none;
-	color:#eb3400;
-	border-bottom:1px solid #eb3400;
+	color:#1abc9c;
+	border-bottom:1px solid #1abc9c;
 }
 .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
-	background-color:#eb3400;
+	background-color:#1abc9c;
 }
 .nav .caret,.nav a:hover .caret {
-	border-top-color:#eb3400;
-	border-bottom-color:#eb3400;
+	border-top-color:#1abc9c;
+	border-bottom-color:#1abc9c;
 }
 .dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus {
-	background-color:#eb3400;
+	background-color:#1abc9c;
 }
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
 	border-color:#bdc3c7;
@@ -323,31 +323,31 @@ label {
 	color:#FFF;
 }
 .has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline {
-	color:#eb3400;
+	color:#2ecc71;
 }
 .has-success .form-control {
-	border-color:#eb3400;
-	background-color:#eb3400;
+	border-color:#2ecc71;
+	background-color:#2ecc71;
 }
 .has-success .form-control:hover,.has-success .form-control:focus {
-	border-color:#eb3400;
+	border-color:#2ecc71;
 	background-color:#FFF;
-	color:#eb3400;
+	color:#2ecc71;
 		box-shadow:none;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 }
 .has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline {
-	color:#eb3400;
+	color:#e67e22;
 }
 .has-warning .form-control {
-	border-color:#eb3400;
-	background-color:#eb3400;
+	border-color:#e67e22;
+	background-color:#e67e22;
 }
 .has-warning .form-control:hover,.has-warning .form-control:focus {
 	background-color:#FFF;
-	border-color:#eb3400;
-	color:#eb3400;
+	border-color:#e67e22;
+	color:#e67e22;
 		box-shadow:none;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
@@ -374,7 +374,6 @@ label {
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,.05);
 }
 /*	Parallax Background	==================================================*/
-	
 #parallax {
 	height:100%;
 	width:100%;
@@ -389,7 +388,6 @@ label {
 	background-size: cover;
 	z-index: -100;
 }
-
 /*	Navbar	==================================================*/
 .navbar-inverse .navbar-brand {
 	padding:30px 15px;
@@ -431,15 +429,12 @@ label {
 	margin-top:140px;
 	padding:0;
 	color:#FFF;
-	
 }
 #hero .herotext {
 	padding:160px 0px;
-	width: max-content;
 }
 #hero h1 {
 	font-size:50px;
-	
 }
 #hero p.lead {
 	font-size:1.4em;
@@ -466,7 +461,7 @@ label {
 	padding-right:20px;
 }
 .service-box {
-	margin-bottom:30px;
+	margin-bottom:28px;
 	background-color:#fff;
 	color:#444;
 	padding:30px;
@@ -474,16 +469,16 @@ label {
 }
 .service-box .glyphicon {
 	font-size:60px;
-	margin-bottom:26px;
+	margin-bottom:25px;
 }
 
 .service-box .fa {
 	font-size:60px;
-	margin-bottom:20px;
+	margin-bottom:25px;
 }
 
 .service-box img {
-	margin-bottom: 29px;
+	margin-bottom: 25px;
 }
 
 /*	Gallery	==================================================*/ 
@@ -525,11 +520,6 @@ label {
 #gallery a.btn {
 	display:inline-block;
 }
-
-#gallery .maintitle .lead { 
-	margin-bottom:0px;
-}
-
 /*	Faq==================================================*/ 
 #faq {
 	background-color:#F9FAFD;
@@ -630,13 +620,13 @@ label {
 	padding:20px 25px;
 	height:65px;
 }
-#my-form label {
+#contact label {
 	text-transform:uppercase;
 	font-weight:300;
 	 letter-spacing:3px;
 	 font-size:13px;
 }
-#my-form input,#my-form select,#my-form textarea {
+#contact input,#contact select,#contact textarea {
 	font-family:inherit;
 	font-size:inherit;
 	line-height:inherit;
@@ -646,11 +636,11 @@ label {
 	background-color:#fff;
 	border:0;
 }
-#my-form input,#my-form select {
+#contact input,#contact select {
 		height:40px;
 	margin-bottom:0px;
 }
-#my-form input#my-form-button {
+#contact input#submit {
 	width:auto;
 	margin-top:20px;
 	background-color:rgba(0,0,0,0.3);
@@ -662,7 +652,7 @@ label {
 	letter-spacing:3px;
 	font-size:14px;
 }
-#my-form textarea {
+#contact textarea {
 	height:180px;
 }
 .required {
@@ -1280,3 +1270,5 @@ img.mfp-img {
 					margin: 0;
 	}
 }
+
+
