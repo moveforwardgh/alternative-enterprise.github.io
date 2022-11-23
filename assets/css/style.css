@@ -374,7 +374,7 @@ label {
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,.05);
 }
 /*	Parallax Background	==================================================*/
-/*	
+	
 #parallax {
 	height:100%;
 	width:100%;
@@ -389,7 +389,7 @@ label {
 	background-size: cover;
 	z-index: -100;
 }
-*/
+
 /*	Navbar	==================================================*/
 .navbar-inverse .navbar-brand {
 	padding:30px 15px;
